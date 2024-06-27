@@ -1,9 +1,21 @@
 {
     "name": "abaev/fuelo-client-api",
     "description": "The Fuelo API gives read access to the database of prices and gas stations on the fuelo.net site. If you think there is an error in the data or you want to add new ones, you should contact us - you can do this using the contact form or e-mail support at fuelo.net",
-    "type": "library",
+    "keywords": [
+        "abaev",
+        "library",
+        "base"
+    ],
+    "homepage": "https://github.com/angelbaev",
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
     "require": {
-        "guzzlehttp/guzzle": "^7.8"
+        "guzzlehttp/guzzle": "^7.8",
+        "php": "^7.4|^8.0",
+        "composer/installers": "~1.0"
     },
     "require-dev": {
         "phpunit/phpunit": "^11.2"
